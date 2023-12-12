@@ -1,0 +1,42 @@
+
+body{
+   background-color: #FFFFDD;
+}
+table{
+   border: 1px solid black;
+   width: 100%;
+}
+
+thead{
+   
+    background-color: #8C2020;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+table,thead, tbody, th,td{
+   border: 1px solid black;
+   border-collapse: collapse;
+   
+}
+
+ span{
+    font-style: italic;
+    font-size: 10px;
+    margin-right: 1%;
+    letter-spacing: 2px;
+ }
+.important{
+    color: #FF0000;
+    
+}
+.space{
+  color: black;
+}
+.required::before{
+   content: '*';
+   color: red;
+  
+}
+.required{
+font-weight: bolder;
+}
